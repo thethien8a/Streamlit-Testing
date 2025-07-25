@@ -208,3 +208,26 @@ import numpy as np
 #         st.write("Please fill out the form and submit.")
 # st.write("Ouside of form")
 
+
+# Lession 19:
+# st.header("**Welcome to Streamlit**")
+# st.video("https://youtu.be/rMLwiVrK3Fw")
+
+# with st.sidebar:
+#     add_selectbox = st.selectbox(
+#         "How would you like to be contacted?",
+#         ("Email", "Phone", "Social Media")
+#     )
+#     add_input = st.text_input("Enter your contact information")
+    
+#     add_radio = st.radio(
+#         "Choose a shipping method",
+#         ("Standard", "Express", "Overnight")
+#     )
+    
+#     send_button = st.button("Send")
+
+# if send_button:
+#    st.sidebar.success(f"Your contact information has been sent via {add_selectbox} to {add_input}.")
+
+
